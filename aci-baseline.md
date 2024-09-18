@@ -12,7 +12,7 @@ any of the following ways:
  
  1. Contact Johannes Mülmenstädt by email (<johannes.muelmenstaedt@pnnl.gov>)
  1. Leave a comment or edit the [google docs version of this
-    document](https://drive.google.com/foo) _in suggestion mode_
+    document](https://docs.google.com/document/d/1TlV4SynIRs0v6d8X2GwikCh9I8D_XKCw/edit?usp=sharing&ouid=111193538246169007999&rtpof=true&sd=true) _in suggestion mode_
  1. Interact directly with the [master version of this document on
     GitHub](https://github.com/jmuelmen/AeroCom-Phase4/aci-baseline.md) (e.g., via a
     pull request containing your proposed changes)
