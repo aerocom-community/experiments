@@ -1,6 +1,9 @@
 ACI "Baseline" Experiment
 =========================
 
+<!-- One way to get this into other formats (e.g., docx for the google doc version) -->
+<!--  pandoc --highlight-style=pygments -s -f gfm+smart -t latex -o aci.tex aci-baseline.md -->
+
 <!-- [comment]: # Repository: -->
 <!-- aerocom-users:/metno/aerocom/work/aerocom1/INDIRECT3 -->
 
