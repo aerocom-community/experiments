@@ -2,7 +2,7 @@
 Managing [AeroCom](https://aerocom.met.no) experiments and associated diagnostics.
 
 ## Currently proposed experiments
-  * Phase 4 Control
+  * [Phase 4 Control](phase-4/proposed/AP4-CTRL/AP4-CTRL.md)
   * [Climate Impact of NPF versus Growth in Climate Models (CI-NPF)](phase-4/proposed/ci-npf/ci-npf_description.md)
   * [ACI Baseline](phase-4/proposed/aci-baseline/aci-baseline.md)
 
