@@ -24,8 +24,8 @@ Use the [Discussions](https://github.com/aerocom-community/experiments/discussio
   <img width="864" alt="image" src="https://github.com/user-attachments/assets/fd0d7f4f-3b17-4a89-81d2-a30141b48dcc">
 
 2. Write in the path (from the root) and name of your file:
-<img width="1225" alt="image" src="https://github.com/user-attachments/assets/f9722cf5-019a-490c-823c-9202ae9753cb">
+<img width="1073" alt="image" src="https://github.com/user-attachments/assets/938b93fa-88ed-4866-8461-66c0aa18dd6f" />
 
-3. Write in your description in markdown. It's a very simple syntax (much simpler than Latex!), and you can find some introductory instructions [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). If you already wrote it in another format, chatgpt is very good at converting, even tables, to markdown: Just copy paste and ask for markdown format.
+4. Write in your description in markdown. It's a very simple syntax (much simpler than Latex!), and you can find some introductory instructions [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). If you already wrote it in another format, chatgpt is very good at converting, even tables, to markdown: Just copy paste and ask for markdown format.
 
-4. Add your experiment to the list above in this markdown file (or ask someone to do it for you).
+5. Add your experiment to the list above in this markdown file (or ask someone to do it for you).
