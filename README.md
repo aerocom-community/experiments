@@ -1,22 +1,22 @@
 # Aerocom-community/experiments repository
 Managing [AeroCom](https://aerocom.met.no) experiments and associated diagnostics.
-
-## Currently proposed experiments
+## Experiment overview: 
+### Currently proposed experiments
 * [Phase 4 Control](phase-4/AP4-CTRL/AP4-CTRL.md)
 * [Climate Impact of NPF versus Growth in Climate Models (CI-NPF)](phase-4/ci-npf/ci-npf_description.md)
 * [ACI Baseline](phase-4/aci-baseline/aci-baseline.md)
 * [IMO 2020 experiment](phase-4/imo2020/imo2020.md)
 
-## Currently running experiments (plan finalized, accepting submissions)
+### Currently running experiments (plan finalized, accepting submissions)
  * 
 
-## Analysis plans (projects that don't require extra simulations)
+### Analysis plans (projects that don't require extra simulations)
  *
 
-## Completed experiments
+### Completed experiments
 *
 
-## Discussion of experiments or other issues 
+### Discussion of experiments or other issues 
 Use the [Discussions](https://github.com/aerocom-community/experiments/discussions) forum to discuss ideas you might have for experiments, diagnostics or anything else relevant to AeroCom experiments. 
 
 ## For uploading a new experiment:
