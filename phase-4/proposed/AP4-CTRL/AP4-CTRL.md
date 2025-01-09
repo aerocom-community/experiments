@@ -1,5 +1,7 @@
 # AeroCom phase 4 control experiment (AP4-CTRL)
 
+Feedback on the proposed experiment can for example be discussed in the discussion section [here](https://github.com/aerocom-community/experiments/discussions/10).
+
 ## Organizers
 - Kostas Tsigaridis, ([kostas.tsigaridis@columbia.edu](mailto:kostas.tsigaridis@columbia.edu))
 - Michael Schulz, ([michael.schulz@met.no](mailto:michael.schulz@met.no))
