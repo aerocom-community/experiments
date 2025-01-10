@@ -1,4 +1,4 @@
-# Title
+# Title of experiment, including its acronym
 
 ## Organizers
 - Name Name ([email@email.com](mailto:email@email.com))
