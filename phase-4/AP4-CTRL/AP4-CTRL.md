@@ -6,12 +6,12 @@
 - Huisheng Bian ([huisheng.bian-1@nasa.gov](mailto:huisheng.bian-1@nasa.gov))
 
 ## Submission deadlines
-- **Present-day AMIP:** TBD
-- **Present-day transient nudged:** TBD
-- **Present-day climatological nudged:** TBD
 - **Preindustrial AMIP:** TBD
 - **Preindustrial transient nudged:** TBD
 - **Preindustrial climatological nudged:** TBD
+- **Present-day AMIP:** TBD
+- **Present-day transient nudged:** TBD
+- **Present-day climatological nudged:** TBD
 
 A note on submission deadlines: AP4-CTRL should be performed with the models that participate in CMIP7, where applicable. This means that the submission deadline depends on 1) the availability of model input data from CMIP7, and 2) the model code freezing from the different modeling centers. However, early submissions are highly encouraged, with the caveat that you will need to repeat the runs when the CMIP7 version of the model is ready. 
 
@@ -30,7 +30,7 @@ In 2025 additional motivation we try to revisit the AeroCom evaluation done over
 Three types of simulation pairs are planned, each of which has a preindustrial and a present day simulation:
 - **AMIP:** For all GCMs; aiming to capture the full atmospheric transient model response to aerosol changes. 
 - **Transient nudged:** For all models; focusing on aerosol forcing.
-- **Climatological nudged:** For all models participating in the [ACI experiment](/phase-4/aci-baseline/aci-baseline.md); trying to reduce the weather noise as much as possible.
+- **Climatological nudged:** Only for models participating in the [ACI experiment](/phase-4/aci-baseline/aci-baseline.md); trying to reduce the weather noise as much as possible.
 
 Additional analysis not listed here which can happen using this output is particularly welcome. 
 
@@ -53,19 +53,22 @@ Additional analysis not listed here which can happen using this output is partic
 - **Passive tracers:** Strongly recommended to be included, but not required. These include CO50, Rn222, Pb210, e90, st8025, aoa, aoanh, nh50. See e.g. Orbe et al. (2022) for details. Also see [here](https://wiki.met.no/_media/aerocom/a3_tracer_requirements_v2019-10-10c.pdf).
 
 ### Lite simulations
-Nudged and AMIP (for GCMs only) simulations. Preindustrial: 5-year mean with at least 2 years of spinup. Present-day: 2010-2023 with at least 2 years of spinup. **Total simulation years:** 23 for CTMs, 46 for GCMs. 
+Nudged (climatological and transient) and AMIP (for GCMs only) simulations. Preindustrial: 5-year mean with at least 2 years of spinup. Present-day: 2010-2023 with at least 2 years of spinup. **Total simulation years:** 30 for CTMs, 53 for GCMs; 23 and and 46, respectively, if not participating in the ACI experiment. 
 
 ### Full simulations
-Nudged and AMIP (for GCMs only) simulations. Preindustrial: 10-year mean with at least 2 years of spinup. Present-day: 2000-2023 with at least 2 years of spinup. **Total simulation years:** 38 for CTMs, 76 for GCMs. 
+Nudged (climatological and transient) and AMIP (for GCMs only) simulations. Preindustrial: 10-year mean with at least 2 years of spinup. Present-day: 2000-2023 with at least 2 years of spinup. **Total simulation years:** 45 for CTMs, 83 for GCMs; 38 and and 75, respectively, if not participating in the ACI experiment. 
 
 ### Simulations
+In the table below, replace the year 2000 with 2010 if only running the lite simulations. For spinup, use the same years as described for individual years, or the years prior for transient ones (e.g. 2010 for a 2010 climatology, and 1998-1999 for a 2000-2023 simulation).
 
-| Simulation   | Period        | Nudged | Years                               |
-|--------------|---------------|--------|-------------------------------------|
-| AP4-CTRL-PIf | Preindustrial | No     | 1850. Lite: 5 years; Full: 10 years |
-| AP4-CTRL-PIn | Preindustrial | Yes    | 1850. Lite: 5 years; Full: 10 years |
-| AP4-CTRL-PDf | Present day   | No     | Lite: 2010-2023; Full: 2000-2023    |
-| AP4-CTRL-PDn | Present day   | Yes    | Lite: 2010-2023; Full: 2000-2023    |
+| Simulation          | Emissions | Nudging   | SST and sea ice     |
+|---------------------|-----------|-----------|---------------------|
+| AP4-CTRL-PI-AMIP    | 1850      | None      | ~1850 decadal mean  |
+| AP4-CTRL-PI-NudTran | 1850      | 2010-2019 | 2010-2019 transient |
+| AP4-CTRL-PI-NudClim | 1850      | 2010      | 2005-2015 mean      |
+| AP4-CTRL-PD-AMIP    | 2000-2023 | None      | ~1850 decadal mean  |
+| AP4-CTRL-PD-NudTran | 2000-2023 | 2000-2023 | 2000-2023 transient |
+| AP4-CTRL-PD-NudClim | 2010      | 2010      | 2005-2015 mean      |
 
 ## Model Output Variables
 
@@ -95,9 +98,10 @@ The format for the AeroCom file name (one variable per file) should be:
 `aerocom4_<ModelName>_<YOUR_EXPERIMENT_NAME>-<SimulationName>_<VariableName>_<VerticalCoordinateType>_<Year>_monthly.nc`
 
 #### Example Filenames
-- **2-D:** `aerocom4_GEOS-i33p2_AP4-CTRL-PDn_ps_Surface_2008_monthly.nc`
-- **3-D:** `aerocom4_GEOS-i33p2_AP4-CTRL-PDn-oa_ModelLevel_2009_monthly.nc`
+- **2-D:** `aerocom4_GEOS-i33p2_AP4-CTRL-PD-NudTran_ps_Surface_2010_monthly.nc`
+- **3-D:** `aerocom4_GEOS-i33p2_AP4-CTRL-PD-NudTran-oa_ModelLevel_2010_monthly.nc`
 
 ## References
-Carn, S. (2022), Multi-Satellite Volcanic Sulfur Dioxide L4 Long-Term Global Database V4, Greenbelt, MD, USA, Goddard Earth Science Data and Information Services Center (GES DISC), doi:[10.5067/MEASURES/SO2/DATA405](https://dx.doi.org/10.5067/MEASURES/SO2/DATA405). 
+Carn, S. (2022), Multi-Satellite Volcanic Sulfur Dioxide L4 Long-Term Global Database V4, Greenbelt, MD, USA, Goddard Earth Science Data and Information Services Center (GES DISC), doi:[10.5067/MEASURES/SO2/DATA405](https://dx.doi.org/10.5067/MEASURES/SO2/DATA405).
+
 Orbe, C., D. Rind, J. Jonas, L. Nazarenko, G. Faluvegi, L.T. Murray, D.T. Shindell, K. Tsigaridis, T. Zhou, M. Kelley, and G. Schmidt, 2020: GISS Model E2.2: A climate model optimized for the middle atmosphere. Part 2: Validation of large-scale transport and evaluation of climate response. J. Geophys. Res. Atmos., 125, no. 24, e2020JD033151, doi:[10.1029/2020JD033151](http://dx.doi.org/10.1029/2020JD033151).
