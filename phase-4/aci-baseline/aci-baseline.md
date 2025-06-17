@@ -77,7 +77,7 @@ wish had been included.
 ## Diagnostics ##
 
  *   All data is to be collected at the AeroCom server.
- *   Follow the aerocom data protocol (http://aerocom.met.no/protocol.html)
+ *   Follow the aerocom data protocol ([http://aerocom.met.no/data/data-submission.html](https://aerocom.met.no/data/data-submission))
  *   Data in NetCDF format, one variable and year per file with CMOR variable names
  *   All data are 3-dimensional, e.g., ``( lon x lat x time )``; if your model
      uses other than a lon-lat coordinate system, please provide the data in
