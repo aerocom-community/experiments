@@ -2,10 +2,10 @@
 Managing [AeroCom](https://aerocom.met.no) experiments and associated diagnostics.
 ## Experiment overview: 
 ### Currently proposed experiments
-* [Phase 4 Control](phase-4/AP4-CTRL/AP4-CTRL.md)
+* [AeroCom Phase 4 Control (AP4-CTRL)](phase-4/AP4-CTRL/AP4-CTRL.md)
 * [Climate Impact of NPF versus Growth in Climate Models (CI-NPF)](phase-4/ci-npf/ci-npf_description.md)
-* [ACI Baseline](phase-4/aci-baseline/aci-baseline.md)
-* [IMO 2020 experiment](phase-4/imo2020/imo2020.md)
+* [ACI Baseline (ACI Baseline)](phase-4/aci-baseline/aci-baseline.md)
+* [IMO 2020 experiment (IMO 2020)](phase-4/imo2020/imo2020.md)
 
 ### Currently running experiments (plan finalized, accepting submissions)
  * 
