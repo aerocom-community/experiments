@@ -91,7 +91,7 @@ Either a table or a link to somewhere else.
 | Near-surface air temperature         | tas               | K                 | Monthly-mean            |
 
 ## Model Output Submission
-Submit your model output via the AeroCom website: [Submit Data](https://aerocom.met.no/FAQ/data_access/submit_data).
+Submit your model output via the AeroCom website: [Submit Data](https://aerocom.met.no/data/data-submission).
 
 ### Model Output Naming Convention
 The format for the AeroCom file name (one variable per file) should be:
