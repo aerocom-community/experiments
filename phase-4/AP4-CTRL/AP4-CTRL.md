@@ -3,7 +3,6 @@
 ## Organizers
 - Kostas Tsigaridis, ([kostas.tsigaridis@columbia.edu](mailto:kostas.tsigaridis@columbia.edu))
 - Michael Schulz, ([michael.schulz@met.no](mailto:michael.schulz@met.no))
-- Huisheng Bian ([huisheng.bian-1@nasa.gov](mailto:huisheng.bian-1@nasa.gov))
 
 ## Submission deadlines
 - **Preindustrial AMIP:** TBD
@@ -20,7 +19,7 @@ Who should submit results early:
 - GCMs that have their CMIP7 version of the code frozen.
 - GCMs that are not ready for CMIP7, but are willing to repeat the early simulations.
 
-The [ACI experiment](/phase-4/aci-baseline/aci-baseline.md) is welcoming early submissions of results, given that it only requests a small amount of simulation years. These include the climatological nudged simulations only; see below for details. 
+The [ACI experiment](/phase-4/aci-baseline/aci-baseline.md) is also welcoming early submissions of results, given that it only requests a small amount of simulation years. These include the climatological nudged simulations only; see below for details. 
 
 ## Motivation
 The model versions used for the different experiments are often not easily comparable. New model versions should be documented regularly to establish a state of the art comparison yearly. For this purpose AeroCom offers a semi-automatic platform with visualization via the AeroCom web interface. Evaluation with surface observations and AERONET observations will complete the documentation of emissions, removal, burden, lifetime of the major aerosol species.
@@ -44,7 +43,7 @@ Additional analysis not listed here which can happen using this output is partic
 ## Proposed Model Experiments
 
 ### General Simulation Requirements
-- **Simulation Period:** Preindustrial (1850; Full: 10-year mean; Lite: 5-year mean) and present-day (Full: 2000-2023; Lite: 2010-2023).
+- **Simulation Period:** Preindustrial (1850; Full: 10-year mean; Lite: 5-year mean) and present-day (Full: 2000-2025; Lite: 2010-2025).
 - **Spinup:** 2 years or more. Year 1850 for preindustrial, transient years before initial year for present-day (i.e. Full: 1988-1999; Lite: 2008-2009). 
 - **Nudging:** For preindustrial climatological nudged runs use year 2010. For preindustrial transient  nudged runs use the same years used in the present day simulation. Models can use their nudging source and method. CTMs will be considered as nudged, and don't have to submit AMIP simulations.
 - **Emissions:** CEDS for CMIP7 for anthropogenic. Year 1850 preindustrial, transient for present day. GFED4s (daily) for present day, per CMIP7 (monthly) for preindustrial. Natural emissions (natural VOCs, DMS, dust, sea salt, lightning, etc.) calculated online, or whatever each model uses. 
@@ -53,21 +52,21 @@ Additional analysis not listed here which can happen using this output is partic
 - **Passive tracers:** Strongly recommended to be included, but not required. These include CO50, Rn222, Pb210, e90, st8025, aoa, aoanh, nh50. See e.g. Orbe et al. (2022) for details. Also see [here](https://wiki.met.no/_media/aerocom/a3_tracer_requirements_v2019-10-10c.pdf).
 
 ### Lite simulations
-Nudged (climatological and transient) and AMIP (for GCMs only) simulations. Preindustrial: 5-year mean with at least 2 years of spinup. Present-day: 2010-2023 with at least 2 years of spinup. **Total simulation years:** 30 for CTMs, 53 for GCMs; 23 and and 46, respectively, if not participating in the ACI experiment. 
+Nudged (climatological and transient) and AMIP (for GCMs only) simulations. Preindustrial: 5-year mean with at least 2 years of spinup. Present-day: 2010-2025 with at least 2 years of spinup. **Total simulation years:** 30 for CTMs, 53 for GCMs; 23 and and 46, respectively, if not participating in the ACI experiment. 
 
 ### Full simulations
-Nudged (climatological and transient) and AMIP (for GCMs only) simulations. Preindustrial: 10-year mean with at least 2 years of spinup. Present-day: 2000-2023 with at least 2 years of spinup. **Total simulation years:** 45 for CTMs, 83 for GCMs; 38 and and 75, respectively, if not participating in the ACI experiment. 
+Nudged (climatological and transient) and AMIP (for GCMs only) simulations. Preindustrial: 10-year mean with at least 2 years of spinup. Present-day: 2000-2025 with at least 2 years of spinup. **Total simulation years:** 45 for CTMs, 83 for GCMs; 38 and and 75, respectively, if not participating in the ACI experiment. 
 
 ### Simulations
-In the table below, replace the year 2000 with 2010 if only running the lite simulations. For spinup, use the same years as described for individual years, or the years prior for transient ones (e.g. 2010 for a 2010 climatology, and 1998-1999 for a 2000-2023 simulation).
+In the table below, replace the year 2000 with 2010 if only running the lite simulations. For spinup, use the same years as described for individual years, or the years prior for transient ones (e.g. 2010 for a 2010 climatology, and 1998-1999 for a 2000-2025 simulation).
 
 | Simulation          | Emissions | Nudging   | SST and sea ice     |
 |---------------------|-----------|-----------|---------------------|
 | AP4-CTRL-PI-AMIP    | 1850      | None      | ~1850 decadal mean  |
 | AP4-CTRL-PI-NudTran | 1850      | 2010-2019 | 2010-2019 transient |
 | AP4-CTRL-PI-NudClim | 1850      | 2010      | 2005-2015 mean      |
-| AP4-CTRL-PD-AMIP    | 2000-2023 | None      | ~1850 decadal mean  |
-| AP4-CTRL-PD-NudTran | 2000-2023 | 2000-2023 | 2000-2023 transient |
+| AP4-CTRL-PD-AMIP    | 2000-2025 | None      | ~1850 decadal mean  |
+| AP4-CTRL-PD-NudTran | 2000-2025 | 2000-2025 | 2000-2025 transient |
 | AP4-CTRL-PD-NudClim | 2010      | 2010      | 2005-2015 mean      |
 
 ## Model Output Variables
