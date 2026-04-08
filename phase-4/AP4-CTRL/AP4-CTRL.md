@@ -70,6 +70,8 @@ In the table below, replace the year 2000 with 2010 if only running the lite sim
 | AP4-CTRL-PD-NudTran | 2000-2023 | 2000-2023 | 2000-2023 transient |
 | AP4-CTRL-PD-NudClim | 2010      | 2010      | 2005-2015 mean      |
 
+(1) optional; only if not participating in CMIP7 with the exact same model version
+
 ## Model Output Variables
 
 **TBD; not yet current**
