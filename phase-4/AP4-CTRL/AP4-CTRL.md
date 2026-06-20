@@ -60,14 +60,16 @@ Nudged (climatological and transient) and AMIP (for GCMs only) simulations. Prei
 ### Simulations
 In the table below, replace the year 2000 with 2010 if only running the lite simulations. For spinup, use the same years as described for individual years, or the years prior for transient ones (e.g. 2010 for a 2010 climatology, and 1998-1999 for a 2000-2025 simulation).
 
-| Simulation          | Emissions | Nudging   | SST and sea ice     |
-|---------------------|-----------|-----------|---------------------|
-| AP4-CTRL-PI-AMIP    | 1850      | None      | ~1850 decadal mean  |
-| AP4-CTRL-PI-NudTran | 1850      | 2010-2019 | 2010-2019 transient |
-| AP4-CTRL-PI-NudClim | 1850      | 2010      | 2005-2015 mean      |
-| AP4-CTRL-PD-AMIP    | 2000-2025 | None      | ~1850 decadal mean  |
-| AP4-CTRL-PD-NudTran | 2000-2025 | 2000-2025 | 2000-2025 transient |
-| AP4-CTRL-PD-NudClim | 2010      | 2010      | 2005-2015 mean      |
+| Simulation           | Emissions | Nudging   | SST and sea ice     |
+|----------------------|-----------|-----------|---------------------|
+| AP4-CTRL-PI-AMIP (1) | 1850      | None      | ~1850 decadal mean  |
+| AP4-CTRL-PI-NudTran  | 1850      | 2010-2019 | 2010-2019 transient |
+| AP4-CTRL-PI-NudClim  | 1850      | 2010      | 2005-2015 mean      |
+| AP4-CTRL-PD-AMIP (1) | 2000-2025 | None      | 2000-2025 transient |
+| AP4-CTRL-PD-NudTran  | 2000-2025 | 2000-2025 | 2000-2025 transient |
+| AP4-CTRL-PD-NudClim  | 2010      | 2010      | 2005-2015 mean      |
+
+(1) optional; needed if not participating in CMIP7 with the exact same model version
 
 ## Model Output Variables
 
