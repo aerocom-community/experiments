@@ -3,7 +3,6 @@
 ## Organizers
 - Kostas Tsigaridis, ([kostas.tsigaridis@columbia.edu](mailto:kostas.tsigaridis@columbia.edu))
 - Michael Schulz, ([michael.schulz@met.no](mailto:michael.schulz@met.no))
-- Huisheng Bian ([huisheng.bian-1@nasa.gov](mailto:huisheng.bian-1@nasa.gov))
 
 ## Submission deadlines
 - **Preindustrial AMIP:** TBD
@@ -20,7 +19,7 @@ Who should submit results early:
 - GCMs that have their CMIP7 version of the code frozen.
 - GCMs that are not ready for CMIP7, but are willing to repeat the early simulations.
 
-The [ACI experiment](/phase-4/aci-baseline/aci-baseline.md) is welcoming early submissions of results, given that it only requests a small amount of simulation years. These include the climatological nudged simulations only; see below for details. 
+The [ACI experiment](/phase-4/aci-baseline/aci-baseline.md) is also welcoming early submissions of results, given that it only requests a small amount of simulation years. These include the climatological nudged simulations only; see below for details. 
 
 ## Motivation
 The model versions used for the different experiments are often not easily comparable. New model versions should be documented regularly to establish a state of the art comparison yearly. For this purpose AeroCom offers a semi-automatic platform with visualization via the AeroCom web interface. Evaluation with surface observations and AERONET observations will complete the documentation of emissions, removal, burden, lifetime of the major aerosol species.
