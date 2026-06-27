@@ -332,7 +332,7 @@ These parameters are either less critical than mandatory parameters or important
 
 ## Model Output Submission
 
-For **One-At-a-Time Test**, upload your OAT plots to the google drive folder  [ACI-PPEMIP_OAT/](https://drive.google.com/drive/folders/1V1c-4pqVWfcsTqqsZ4UamWCuBw-jrNvz?usp=drive_link) (please create a folder for your model), and enter your parameter ranges in the spreadsheet [ACI-PPEMIP parameter ranges](https://docs.google.com/spreadsheets/d/1tHGisfeP_58EO69tO5mt5H-nEfxcTZLcGYEDKeKs-v0/edit?gid=0#gid=0). The ICON-HAM results are provided there as an example (create a model folder by yourself).
+For **One-At-a-Time Test**, upload your OAT plots to the google drive folder  [ACI-PPEMIP_OAT/](https://drive.google.com/drive/folders/1V1c-4pqVWfcsTqqsZ4UamWCuBw-jrNvz?usp=drive_link) (please create a folder for your model), and enter your parameter ranges in the spreadsheet [ACI-PPEMIP parameter ranges](https://docs.google.com/spreadsheets/d/1tHGisfeP_58EO69tO5mt5H-nEfxcTZLcGYEDKeKs-v0/edit?gid=0#gid=0). The ICON-HAM results are provided there as an example.
 
 For **PPE experiments**, submit the following data via the AeroCom website ([Submit Data](https://aerocom.met.no/FAQ/data_access/submit_data)):
 
