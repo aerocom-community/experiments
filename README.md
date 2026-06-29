@@ -6,6 +6,7 @@ Managing [AeroCom](https://aerocom.met.no) experiments and associated diagnostic
 * [Climate Impact of NPF versus Growth in Climate Models (CI-NPF)](phase-4/ci-npf/ci-npf_description.md)
 * [ACI Baseline (ACI Baseline)](phase-4/aci-baseline/aci-baseline.md)
 * [IMO 2020 experiment (IMO 2020)](phase-4/imo2020/imo2020.md)
+* [Multi-Model PPE experiment (MMPPE)](phase-4/MMPPE/MMPPE.md)
 
 ### Currently running experiments (plan finalized, accepting submissions)
  * 
