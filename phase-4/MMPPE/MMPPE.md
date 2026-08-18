@@ -161,8 +161,20 @@ These parameters are either less critical than mandatory parameters or important
 ## Model Output Variables
 > Note: "+" denotes variables to be added to the AeroCom AP4 CTRL variable spreadsheet..
  
-**6H**: 6-hourly **instantaneous** output
-**M**: monthly **mean** output
+`6H`: 6-hourly **instantaneous** output
+
+`M`: monthly **mean** output
+
+**PD PPE**: all listed `M` and `6H` outputs are required. 
+
+**PI PPE**:  all listed `M` outputs are required;  `6H` output is required only for the follwing variables:
+
+- `od550aer`, `angstrm550_865`, `od550aer_fine`, 
+- `ccn01vi`, `ccn03vi`, `ccn01sf`, `ccn03sf`, `ccn01bl`, `ccn03bl`, `loadso4`, `so4sf`, `so4bl`
+- `clt`, `lcc`, `icc`, `cdnctop`, `reffclwtop`, `reffclitop`, `ttop`, `n_liq_layer`, `lwp`, `clivi`, `clivi`, `wb`, `lts`, `pr`
+- `rsdt`, `rsut`, `rsutcs`, `rlut`, `rlutcs`, `rsutaf`, `rsutcsaf`, `rlutaf`, `rlutcsaf`
+- optional: `cltmodis`, `lccmodis`, `iccmodis`, `codmodis`, `codclwmodis`, `codclimodis`, `reffclwmodis`, `reffclimodis`, `lwpmodis`, `clivimodis`
+
 
 ### 3D outputs (lev, lat, lon)
 - **output levels**: all model levels for monthly outputs; 8 height levels for 6-hourly `ec355aer` (see *Remarks*).
@@ -314,6 +326,7 @@ These parameters are either less critical than mandatory parameters or important
 | od550aer_ai + | aerosol optical depth (insoluble accumulation mode) | 1 | M |  |
 | od550aer_ci + | aerosol optical depth (insoluble coarse mode) | 1 | M |  |
 
+
 ### Output size estimate
 
 For a 1-year simulation:
@@ -325,12 +338,12 @@ For a 1-year simulation:
 
 PPEs with 350 ensemble members in total (PD + PI) would generate (optional variables in parentheses):
 
-- M/2D: ~350 × 100(+6) × 2 MB = 68(+4) GB
-- M/3D: ~350 × 25 × 94 MB = 803 GB
-- 6H/2D: ~350 × 62(+10) × 240 MB = 5.0(+0.8) TB
-- 6H/3D: ~175 × 1 × 1.9 GB = 0.32 TB (ec355aer only for PD)
+- M/2D: ~350 × 100(+6) × 2 MB = 70(+4) GB
+- M/3D: ~350 × 25 × 94 MB = 823 GB
+- 6H/2D: ~[175 × 62(+10) + 175 x 35(+10)]× 240 MB = 4.1(+0.8) TB
+- 6H/3D: ~175 × 1 × 1.9 GB = 0.33 TB (ec355aer only for PD)
 
-**Total: ~6.2 TB for mandatory variables + ~0.8 TB for optional variables.**
+**Total: ~5.3 TB for mandatory variables + ~0.8 TB for optional variables.**
 
 ## Model Output Submission
 
