@@ -295,6 +295,23 @@ These parameters are either less critical than mandatory parameters or important
 | emioa        | emission mass flux of organic matter | kg m-2 s-1 | M |  |
 | emidust      | emission mass flux of dust | kg m-2 s-1 | M |  |
 | emiss        | emission mass flux of seasalt | kg m-2 s-1 | M |  |
+| dryso2       | dry deposition mass flux of sulfur dioxide | kg m-2 s-1 | M |  |
+| dryso4       | dry deposition mass flux of sulfate | kg m-2 s-1 | M  | |
+| drybc        | dry deposition mass flux of blac carbon | kg m-2 s-1 | M |  |
+| dryoa        | dry deposition mass flux of organic matter | kg m-2 s-1 | M |  |
+| drydust      | dry deposition mass flux of dust | kg m-2 s-1 | M |  |
+| dryss        | dry deposition mass flux of seasalt | kg m-2 s-1 | M |  |
+| wetso2       | wet deposition mass flux of sulfur dioxide | kg m-2 s-1 | M |  |
+| wetso4       | wet deposition mass flux of sulfate | kg m-2 s-1 | M  | |
+| wetbc        | wet deposition mass flux of blac carbon | kg m-2 s-1 | M |  |
+| wetoa        | wet deposition mass flux of organic matter | kg m-2 s-1 | M |  |
+| wetdust      | wet deposition mass flux of dust | kg m-2 s-1 | M |  |
+| wetss        | wet deposition mass flux of seasalt | kg m-2 s-1 | M |  |
+| sedso4       | sedimentation mass flux of sulfate | kg m-2 s-1 | M  | |
+| sedbc        | sedimentation mass flux of blac carbon | kg m-2 s-1 | M |  |
+| sedoa        | sedimentation mass flux of organic matter | kg m-2 s-1 | M |  |
+| seddust      | sedimentation mass flux of dust | kg m-2 s-1 | M |  |
+| sedss        | sedimentation mass flux of seasalt | kg m-2 s-1 | M |  |
 | abs550bc     | absorption aerosol optical depth due to black carbon | 1 | M |  |
 | abs550oa     | absorption aerosol optical depth due to organic matter | 1 | M |  |
 | abs550dust   | absorption aerosol optical depth due to dust | 1 | M |  |
@@ -338,7 +355,7 @@ For a 1-year simulation:
 
 PPEs with 350 ensemble members in total (PD + PI) would generate (optional variables in parentheses):
 
-- M/2D: ~350 × 100(+6) × 2 MB = 70(+4) GB
+- M/2D: ~350 × 117(+6) × 2 MB = 81(+4) GB
 - M/3D: ~350 × 25 × 94 MB = 823 GB
 - 6H/2D: ~[175 × 62(+10) + 175 x 35(+10)]× 240 MB = 4.1(+0.8) TB
 - 6H/3D: ~175 × 1 × 1.9 GB = 0.33 TB (ec355aer only for PD)
