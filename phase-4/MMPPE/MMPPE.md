@@ -105,8 +105,8 @@ These parameters are not model-dependent, so all models should be able to pertur
 | emi_ss_acc<br>(Rel)| 1 | [0.1, 3] | Scale factor for accumulation mode sea salt emission | Emission | | 
 | emi_ss_coa<br>(Rel)| 1 | [0.1, 3] | Scale factor for coarse mode sea salt emission | Emission | |
 | emi_du<br>(Rel)| 1 | [0.5, 2] | Scale factor for dust emission | Emission | |
-| emi_cmr_ff<br>(Abs)| 30nm | [15, 45] | Emitted particle size for fossil fuel emissions (unit: nm) | Emission | not in NorESM |
-| emi_cmr_bb<br>(Abs)| 75nm | [25, 250] | Emitted particle size for biomass burning emissions | Emission | not in NorESM |
+| emi_cmr_ff<br>(Abs)| 30nm | [15, 45] | Emitted particle size for fossil fuel emissions (unit: nm) | Emission | **only for BC and OC** |
+| emi_cmr_bb<br>(Abs)| 75nm | [25, 250] | Emitted particle size for biomass burning emissions | Emission | **only for BC and OC** |
 | rad_bc_ni<br>(Abs)| 0.71 | [0.2, 0.9] | BC imaginary refractive index at 550nm|Aerosol Optics | if BC imaginary refractive index is wavelength-dependent in your model, scale all SW wavelengths by the same factor (`scale_bc_rad_ni`) derived from 550nm, to preserve the original spectral dependence (see [wavelength-dependent perturbation](#example-for-wavelength-dependent-perturbation) for example code)|
 | rad_oc_ni<br>(Abs)|0.0055 | [0.0001,0.05] | OC imaginary refractive index at 550nm| Aerosol Optics | same as `rad_bc_ni`|
 | wetdep_ic<br>(Rel)| 1 | [0.75, 1.25] | Scale factor for in-cloud wet deposition rate | Deposition | |
