@@ -73,23 +73,7 @@ In the table below, replace the year 2000 with 2010 if only running the lite sim
 
 ## Model Output Variables
 
-**TBD; not yet current**
-
-Either a table or a link to somewhere else. 
-
-**E.g.:** 
-
-| **Variable**                         | **Variable Name** | **Variable Unit** | **Temporal Frequency** |
-|--------------------------------------|-------------------|-------------------|------------------------|
-| **Basics:**                          |                   |                   |                        |
-| Surface altitude (relative to sea level) | orog              | m                 | Unchanging              |
-| Area of each grid box                | areacella         | m²                | Unchanging              |
-| Land area fraction                   | sftlf             | 1                 | Unchanging              |
-| Variables to interpolate from model levels to pressure levels |                   |                   |                        |
-| **Met. fields:**                     | **VerticalCoordinateType: Surface** |                   |                        |
-| Surface air pressure                 | ps                | Pa                | Monthly-mean            |
-| Sea surface temperature              | tos               | K                 | Monthly-mean            |
-| Near-surface air temperature         | tas               | K                 | Monthly-mean            |
+The Google sheet for the diagnostics is [here](https://docs.google.com/spreadsheets/d/1BAJkZtEqJBTrwv8t1fTH-FR94dNGkQ0VSFjHu2_4CcQ/edit?usp=sharing). 
 
 ## Model Output Submission
 Submit your model output via the AeroCom website: [Submit Data](https://aerocom.met.no/data/data-submission).
