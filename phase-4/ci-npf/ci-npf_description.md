@@ -11,10 +11,10 @@ Please also see [slides from the Aerocom meeting](https://docs.google.com/presen
 - Xu-Cheng He ([xh346@cam.ac.uk](mailto:xh346@cam.ac.uk))
 
 **Timeline:**
-- **Plan open for discussion:** until 1 February 2025
+- **Plan open for discussion:** until 1 October 2026
 - **Deadlines for submission of model data:**
-    - Tier I experiments: 1 May 2025
-    - Tier II experiments: 30 June 2025
+    - Tier I experiments: 1 Feb 2027
+    - Tier II experiments: 1 Apr 2027
 
 ## Motivation
 Estimates of the contribution of NPF to CCN are primarily model-derived and vary widely ([Stolzenburg et al., 2023](https://doi.org/10.1103/RevModPhys.95.045002)). Recent studies show large variability in NPF's contribution to N100/CCN. Some suggest that increased nucleation reduces N100/CCN ([Blichner et al., 2021](https://doi.org/10.5194/acp-21-17243-2021); [Patoulias et al., 2024](https://doi.org/10.1029/2023GL106182); [Roldin et al., 2019](https://doi.org/10.1038/s41467-019-12338-8); [Sullivan et al., 2018](https://doi.org/10.1038/s41612-018-0019-7)), while others show an increase ([Gordon et al., 2017](https://doi.org/10.1002/2017JD026844); [Svenhag et al., 2024](https://doi.org/10.5194/gmd-17-4923-2024)). Stolzenburg et al. (2023) suggest that models with more SOA show a larger NPF impact, which may be constrained by observations.
