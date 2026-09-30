@@ -91,6 +91,7 @@ wish had been included.
     ``<Frequency>`` => "timeinvariant","hourly", ,"3hourly", "daily", "monthly" 
  *  CFMIP COSP diagnostics provided by COSP do not need to be run through cmor because the names are the same, 
       but please separate files for each variable
+ *  MODIS COSP diagnostics to perform monthly-mean ERFaci decomposition from (Duran et al. 2025) and (Duran et al. 2026)
 
 <!-- In addition to the diagnostics below, it is highly recommended to store the AEROCOM standard and forcing diagnostics, so that the simulations can be analysed for the direct forcing as well, and future more in-depth analyses are possible.  -->
 
@@ -210,6 +211,21 @@ Optional, but highly desirable for models with COSP
 
 *TBD: include Brandon Duran's/Casey Wall's monthly-mean COSP histogram ERFaci decomposition?*
 
+### Diagnostics for ERFaci monthly-mean COSP decomposition (monthly averages) ### 
+
+Optional, but highly desirable for models with COSP. CF names for these variables are still TBD.
+
+| name | long_name (CF if possible) |	units |	description | comment | notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| rsuscs | surface_upwelling_shortwave_flux_in_air_assuming_clear_sky | W m-2 | upwelling SW flux at the surface under clear skies  | needed for ERFaci decomposition |
+| rsdscs | surface_downwelling_shortwave_flux_in_air_assuming_clear_sky | W m-2 | downwelling SW flux at the surface under clear skies  | needed for ERFaci decomposition |
+| cltmodis | modis_cloud_area_fraction | % | MODIS Total Cloud Area Percentage  | from modis simulator | needed for ERFaci decomposition |
+| clmodisliquidReff | modis_liquid_topped_cloud_area_fraction | % | MODIS Liquid Topped Cloud Area Percentage (re-LWP histogram)  | from modis simulator | needed for ERFaci decomposition (SW) |
+| clmodisiceReff | modis_ice_topped_cloud_area_fraction | % | MODIS Ice Topped Cloud Area Percentage (re-IWP histogram)  | from modis simulator | needed for ERFaci decomposition (SW) |
+| clmodisice | modis_ice_topped_cloud_area_fraction | % | MODIS Ice Topped Cloud Area Percentage (CTP-tau histogram)  | from modis simulator | needed for ERFaci decomposition (LW) |
+
+
+
 <!-- (b) 3D -->
 
 <!-- | name | long_name (CF if possible) |	units |	description | comment | notes | -->
@@ -322,6 +338,10 @@ DO i=1,nx
 ENDDO ! loop over I
 ```
 
+### MODIS CRK ERFaci Decomposition ###
+Requires COSP version >= 2.18. The minimal code changes needed for the joint histograms can be found [here](https://github.com/E3SM-Project/E3SM/pull/6407/changes). Further details can be found in [Duran et al. 2025](https://acp.copernicus.org/articles/25/2123/2025/).
+
+Please reach out to Brandon Duran (<bmduran@ucsd.edu>) and Casey Wall (<casey.wall@misu.su.se>) with questions.
 <!-- naming convention for the input variables: -->
 
 <!--     utctime current time of the day in UTC in seconds   -->
