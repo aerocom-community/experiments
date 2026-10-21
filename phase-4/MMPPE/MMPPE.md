@@ -383,12 +383,16 @@ For **PPE experiments**, submit the following data via the AeroCom website ([Sub
 ### Model Output Naming Convention
 The format for the AeroCom file name (one variable per file) should be:
 
-`aerocom4_<ModelName>_<YOUR_EXPERIMENT_NAME>-<SimulationName>_<VariableName>_<VerticalCoordinateType>_<Year>_<Freq>.nc`
+`aerocom4_<ModelName>_<YOUR_EXPERIMENT_NAME>_<SimulationName>_<VariableName>_<VerticalCoordinateType>_<Period>_<Freq>.nc`
+
+`VerticalCoordinateType`: ⇒ “Surface”, “Column”, “ModelLevel”, “CustomLevel”, 
+`Period`:⇒ “2025”
+`Freq`: ⇒ “6hourly”, “monthly”
 
 #### Example Filenames
-- **2-D:** `aerocom4_ICON-HAM_<YOUR_EXPERIMENT_NAME>-PD_aod_Surface_2025_monthly.nc`
-- **3-D:** `aerocom4_ICON-HAM_<YOUR_EXPERIMENT_NAME>-PD_aod_ModelLevel_2025_monthly.nc`
-- **3-D (reduced levels):** `aerocom4_ICON-HAM_<YOUR_EXPERIMENT_NAME>-PD_aerext_CustomLevel_2025_monthly.nc` (only for aerosol extinction)
+- **2-D:** `aerocom4_ICON-HAM_MMPPE_PD_od550aer_Column_2025_monthly.nc`
+- **3-D:** `aerocom4_ICON-HAM_MMPPE-PD_ec355aer_ModelLevel_2025_monthly.nc`
+- **3-D (reduced levels):** `aerocom4_ICON-HAM_MMPPE_PD_ec355aer_CustomLevel_2025_6hourly.nc` (only for aerosol extinction)
 ## References
 Ghosh, P., Evans, K. J., Grosvenor, D. P. et al. Assessing modifications to the Abdul-Razzak and Ghan aerosol activation parameterization (version ARG2000) to improve simulated aerosol–cloud radiative effects in the UK Met Office Unified Model (UM version 13.0). Geosci. Model Dev. 18, 4899–4913 (2025). https://doi.org/10.5194/gmd-18-4899-2025
 
