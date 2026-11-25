@@ -219,11 +219,11 @@ These parameters are either less critical than mandatory parameters or important
 | od550aer_fine +   | fine-mode aerosol optical thickness @550nm    | 1 | 6H,M | nucleation + Aitken + accumulation modes         |
 | od550aer_cs +     | coarse soluble aerosol optical thickness @550nm    | 1 | 6H,M |                  |
 | od550aer_ci +     | coarse insoluble aerosol optical thickness @550nm    | 1 | 6H,M |                  |
-| conccn30_50sf +     | aerosol number concentration (30<D<50nm) at the lowest model level    | m-2 | 6H,M |Aitken mode (aerosol growth / NPF) |  
-| conccn50_100sf +    | aerosol number concentration (50<D<100nm) at the lowest model level   | m-2 | 6H,M |Aitken mode (CCN in pristine environments) |  
-| conccn100_500sf +   | aerosol number concentration (100<D<500nm) at the lowest model level  | m-2 | 6H,M |Accumulation mode (dominant CCN size range) |  
-| conccn250_500sf +   | aerosol number concentration (250<D<500nm) at the lowest model level  | m-2 | 6H,M |Upper accumulation range (CCN in polluted environments) | 
-| conccn500_800sf +   | aerosol number concentration (500<D<800nm) at the lowest model level  | m-2 | 6H,M | | 
+| conccn30_50sf +     | aerosol number concentration (30<D<50nm) at the lowest model level    | m-3 | 6H,M |Aitken mode (aerosol growth / NPF) |  
+| conccn50_100sf +    | aerosol number concentration (50<D<100nm) at the lowest model level   | m-3 | 6H,M |Aitken mode (CCN in pristine environments) |  
+| conccn100_500sf +   | aerosol number concentration (100<D<500nm) at the lowest model level  | m-3 | 6H,M |Accumulation mode (dominant CCN size range) |  
+| conccn250_500sf +   | aerosol number concentration (250<D<500nm) at the lowest model level  | m-3 | 6H,M |Upper accumulation range (CCN in polluted environments) | 
+| conccn500_800sf +   | aerosol number concentration (500<D<800nm) at the lowest model level  | m-3 | 6H,M | | 
 | conccn150vi +     | vertically integrated aerosol number concentration (D>150nm)     | m-2      | 6H,M |  | 
 | loadbc            | atmospheric burden of black carbon | kg m-2   | 6H,M |                        |
 | loaddu            | atmospheric burden of dust | kg m-2   | 6H,M |                        |
